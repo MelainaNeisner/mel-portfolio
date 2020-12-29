@@ -1,0 +1,79 @@
+/*these values applies to the whole page*/
+html {
+    background: black;
+    font-family: lucida console;
+    color: white;
+}
+/*these deal with font size variation on the page*/
+
+h1 {
+    font-size: 60px;
+}
+
+h2, h3, li {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+}
+
+/*this centers the sections*/
+
+#header-center, footer, #section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+/*this aligns the first section side by side instead of stacked*/
+
+#img-box, #intro-box {
+    margin: auto;
+    
+}
+
+/*styling for the section one img and text*/
+
+img {
+    height: 500px;
+    width: 475px;
+}
+
+#text-box {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ol > li {
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+}
+
+/*styling for links*/
+
+a {
+    color: rgb(193, 0, 252);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:active {
+    text-decoration: none;
+    color: blue
+}
+
+a:visited {
+    text-decoration: none;
+    columns: yellow;
+}
